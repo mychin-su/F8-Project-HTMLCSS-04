@@ -639,6 +639,8 @@ footer {
     margin-top: 65px;
     height: 544px;
     object-fit: cover;
+    overflow: hidden;
+    border-radius: 22px;
     width: 1140px;
 }
 
