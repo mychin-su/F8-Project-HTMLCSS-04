@@ -899,7 +899,7 @@ footer {
     color: #143c3c;
 }
 
-.resource-item__desc {
+.resource-item__desc2 {
     max-width: 280px;
 }
 
@@ -974,6 +974,10 @@ footer {
     border-radius: 50%;
 }
 
+.border-1 {
+    background-color: #143c3c;
+}
+
 .boder:hover {
     background: #a75325;
 }
@@ -1007,6 +1011,10 @@ footer {
     font-size: 1.6rem;
     line-height: 2.25;
     color: #6a8383;
+}
+
+.footer__link:hover {
+    text-decoration: underline;
 }
 
 .footer__straight {
