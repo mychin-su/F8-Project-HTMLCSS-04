@@ -1024,10 +1024,10 @@ footer {
 }
 
 .copyright {
-    margin-top: 20px;
-    text-align: center;
+    margin-top: 28px;
     font-weight: 400;
-    font-size: 1.5rem;
-    line-height: 1.56;
-    color: #ffffff;
+    font-size: 1.8rem;
+    line-height: 1.86;
+    text-align: center;
+    color: #aab3ba;
 }
