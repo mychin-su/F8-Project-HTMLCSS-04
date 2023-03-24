@@ -681,7 +681,6 @@ footer {
 
 .customer__item:hover {
     background: #ffffff;
-    box-shadow: 0px 36px 100px rgba(111, 120, 111, 0.2);
     border-radius: 160px;
     transform: translateY(-55px);
     border: hidden;
