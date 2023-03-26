@@ -17,7 +17,7 @@
         <!-- Style CSS -->
         <link rel="stylesheet" href="./assets/css/style.css" />
         <!-- Favicon -->
-        <link rel="apple-touch-icon" sizes="57x57" href="./assets/favicon/" />
+        <link rel="apple-touch-icon" sizes="57x57" href="./assets/favicon/apple-icon-57x57.png" />
         <link rel="apple-touch-icon" sizes="60x60" href="./assets/favicon/apple-icon-60x60.png" />
         <link rel="apple-touch-icon" sizes="72x72" href="./assets/favicon/apple-icon-72x72.png" />
         <link rel="apple-touch-icon" sizes="76x76" href="./assets/favicon/apple-icon-76x76.png" />
@@ -85,7 +85,7 @@
                 <!-- Hero -->
                 <section class="hero">
                     <section class="hero__content">
-                        <h2 class="hero__heading">We’re a creative design agency.</h2>
+                        <h1 class="hero__heading">We’re a creative design agency.</h1>
                         <p class="hero__desc">
                             A brilliant, modular agency template for startup’s build yours toady.
                         </p>
@@ -97,11 +97,18 @@
                         </div>
                     </section>
                     <div class="hero__media">
-                        <figure class="hero__image">
+                        <div class="hero-image__background"></div>
+                        <div class="hero-group__icon">
+                            <img src="./assets/icon/hero-icon1.svg" alt="" class="hero-icon1" />
+                            <img src="./assets/icon/hero-icon2.svg" alt="" class="hero-icon2" />
+                            <img src="./assets/icon/hero-icon3.svg" alt="" class="hero-icon3" />
+                            <img src="./assets/icon/hero-icon4.svg" alt="" class="hero-icon4" />
+                        </div>
+                        <div class="hero__image">
                             <img src="./assets/img/hero-1.jpg" alt="" class="hero__img" />
                             <img src="./assets/img/hero-2.jpg" alt="" class="hero__img" />
                             <img src="./assets/img/hero-3.jpg" alt="" class="hero__img" />
-                        </figure>
+                        </div>
                     </div>
                 </section>
 
@@ -292,6 +299,18 @@
                                     </div>
                                 </section>
                             </div>
+                            <div class="creative-group__icon">
+                                <img
+                                    src="./assets/icon/creative-1.svg"
+                                    alt=""
+                                    class="creative__icon1"
+                                />
+                                <img
+                                    src="./assets/icon/creative-2.svg"
+                                    alt=""
+                                    class="creative__icon2"
+                                />
+                            </div>
                         </figure>
                         <section class="creative__body">
                             <span class="creative__small">ABOUT US</span>
@@ -393,9 +412,24 @@
                             </div>
                         </section>
                         <div class="project__video">
-                            <img class="project__img" src="./assets/img/project-img.jpg" alt="" />
+                            <video class="project-video" src="./assets/video/video.mp4" controls>
+                                <source src="movie.mp4" type="video/mp4" />
+                                Trình duyệt của bạn không hỗ trợ thẻ video.
+                            </video>
                             <div class="button">
                                 <img class="img__button" src="./assets/icon/play.svg" alt="" />
+                            </div>
+                            <div class="project-group__icon">
+                                <img
+                                    src="./assets/icon/project-icon1.svg"
+                                    alt=""
+                                    class="project__icon1"
+                                />
+                                <img
+                                    src="./assets/icon/project-icon2.svg"
+                                    alt=""
+                                    class="project__icon2"
+                                />
                             </div>
                         </div>
                     </div>
@@ -416,39 +450,41 @@
                         <div class="customer__list">
                             <!-- Item-1 -->
                             <div class="customer__item">
-                                <div class="border">
-                                    <img src="./assets/icon/book.svg" alt="" class="icon1" />
-                                    <h3 class="customer__title">Blog</h3>
-                                    <p class="customer__item-desc">
-                                        We’ve researched numerous agencies and complied a list of
-                                        digital marketing agency blogs you should read to stay ahead
-                                        of your rivals and succeed online!
-                                    </p>
-                                </div>
+                                <img src="./assets/icon/book.svg" alt="" class="customer__img" />
+                                <h3 class="customer__title">Blog</h3>
+                                <p class="customer__item-desc">
+                                    We’ve researched numerous agencies and complied a list of
+                                    digital marketing agency blogs you should read to stay ahead of
+                                    your rivals and succeed online!
+                                </p>
                             </div>
                             <!-- Item-2 -->
                             <div class="customer__item">
-                                <div class="border">
-                                    <img src="./assets/icon/Document.svg" alt="" class="icon2" />
-                                    <h3 class="customer__title">Documention</h3>
-                                    <p class="customer__item-desc">
-                                        In this article, we discuss the different types of
-                                        documentation, what makes for great technical documentation,
-                                        and provide examples.
-                                    </p>
-                                </div>
+                                <img
+                                    src="./assets/icon/Document.svg"
+                                    alt=""
+                                    class="customer__img"
+                                />
+                                <h3 class="customer__title">Documention</h3>
+                                <p class="customer__item-desc">
+                                    In this article, we discuss the different types of
+                                    documentation, what makes for great technical documentation, and
+                                    provide examples.
+                                </p>
                             </div>
                             <!-- Item-3 -->
                             <div class="customer__item">
-                                <div class="border">
-                                    <img src="./assets/icon/customer.svg" alt="" class="icon3" />
-                                    <h3 class="customer__title">Customers</h3>
-                                    <p class="customer__item-desc">
-                                        Your customers have high expectations — and if your business
-                                        can't meet them, they're going to leave you for your
-                                        competitors.
-                                    </p>
-                                </div>
+                                <img
+                                    src="./assets/icon/customer.svg"
+                                    alt=""
+                                    class="customer__img"
+                                />
+                                <h3 class="customer__title">Customers</h3>
+                                <p class="customer__item-desc">
+                                    Your customers have high expectations — and if your business
+                                    can't meet them, they're going to leave you for your
+                                    competitors.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -488,9 +524,9 @@
                                         What did we learn from nunning over 100 design sprints in
                                         less the year?
                                     </p>
-
-                                    <span class="resource-solid"></span>
-                                    <span class="year">JANUARY 29, 2022</span>
+                                    <div class="resource-item__solid">
+                                        <span class="year">JANUARY 29, 2022</span>
+                                    </div>
                                 </div>
                             </article>
                             <!-- Item 2 -->
@@ -503,12 +539,13 @@
                                 /></a>
                                 <div class="resource__body">
                                     <a href="#!" class="btn resource-btn">STORIES</a>
-                                    <p class="resource-item__desc resource-item__desc2">
+                                    <p class="resource-item__desc">
                                         The difference between the UI/UX design a simple guide for
                                         beginner’s
                                     </p>
-                                    <span class="resource-solid"></span>
-                                    <span class="year">JANUARY 29, 2022</span>
+                                    <div class="resource-item__solid">
+                                        <span class="year">JANUARY 29, 2022</span>
+                                    </div>
                                 </div>
                             </article>
                             <!-- Item 3 -->
@@ -521,11 +558,12 @@
                                 /></a>
                                 <div class="resource__body">
                                     <a href="#!" class="btn resource-btn">STORIES</a>
-                                    <p class="resource-item__desc rsc">
+                                    <p class="resource-item__desc">
                                         How marketing can help your business more than anything.
                                     </p>
-                                    <span class="resource-solid"></span>
-                                    <span class="year">JANUARY 29, 2022</span>
+                                    <div class="resource-item__solid">
+                                        <span class="year">JANUARY 29, 2022</span>
+                                    </div>
                                 </div>
                             </article>
                         </div>
